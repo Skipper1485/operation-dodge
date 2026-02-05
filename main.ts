@@ -47,7 +47,7 @@ basic.forever(function () {
 basic.forever(function () {
     enemy.change(LedSpriteProperty.Y, 1)
     enemy_y_cords += 1
-    basic.pause(500)
+    basic.pause(300)
     if (enemy_dood == 1) {
         enemy.delete()
         enemy_y_cords = 0
@@ -62,7 +62,7 @@ basic.forever(function () {
 basic.forever(function () {
     enemy_2.change(LedSpriteProperty.Y, 1)
     enemy_2_y_cords += 1
-    basic.pause(500)
+    basic.pause(300)
     if (enemy_2_dead == 1) {
         enemy_2.delete()
         enemy_2_y_cords = 0
